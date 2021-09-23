@@ -1,0 +1,77 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* --------------- */
+
+body {
+	background-color: Silver;
+}
+span {
+	color: blue;
+}
+.text{
+	color: chartreuse;
+}
+
+#red {
+	color: red;
+}
+div p{
+	color: seagreen;
+}
+
+.yellow {
+	color: yellow;
+}
+p.yellow{
+	color: fuchsia;
+}
+
+p.yellow.text{
+	color: black;
+}
+
+.div span{
+	color: chocolate;
+}
+
+.div p {
+	color: darkgreen;
+}
+
+footer {
+	color: navy;
+}
+
+.dav *{
+	color: #333
+	;
+}
+

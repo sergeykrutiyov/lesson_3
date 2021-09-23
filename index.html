@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson3</title>
+	<style>
+		b {
+			color: tomato;
+		}
+	</style>
+</head>
+
+<body>
+	<!--(1) инлайновые стили атрибут style-->
+	<!--(2) обращерие из html тег style-->
+	<!--(3) подключение из внешнего файла-->
+	<header>
+		<nav>
+			<H2>Этот <b>список</b> сделан с помощь инлайн стилей слово список сделано с помощью</H2>
+			<ul>
+				<li><a style="color:red;" href="#">каждый</a></li>
+				<li><a style="color:orange;" href="#">охотник</a></li>
+				<li><a style="color:yellow;" href="#">желает</a></li>
+				<li><a style="color:green;" href="#">знать</a></li>
+				<li><a style="color:skyblue;" href="#">где</a></li>
+				<li><a style="color:blue;" href="#">сидит</a></li>
+				<li><a style="color:violet;" href="#">фазан</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<p>
+			<span>В этом параграфе я сделал селектор тега с помощью span</span>
+		</p>
+		<span class="text">в этом спане я сделал селектор с помощью класса text chartreuse </span>
+		<p class="yellow">
+			это параграф с классом желтый
+		</p>
+		<p class="text">
+			это параграф с классом текст
+		</p>
+		<p class="text yellow">
+			это параграф с классами текст и желтый
+		</p>
+		<p class="text yellow">
+			это параграф с классами текст и желтый
+		</p>
+		<p class="text">в этом параграфе я сделал селектор с помощью класса text с уточнением</p>
+		<p class="text" id="red"> Это параграф с классом text иммет id red</p>
+		<div>
+			<p>
+				этот параграф имеет вложенность в див и селектор уточняет 2 тега. Цвет seagreen
+			</p>
+		</div>
+		<div class="div">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aperiam at culpa ut molestias doloribus,
+				ipsa <span>facere, nisi voluptate adipisci</span> corrupti incidunt magnam iure! Minima facilis
+				voluptates
+				perferendis? Doloremque, tempora!</p>
+			<span> Lorem ipsum dolor sit amet.</span>
+		</div>
+		<div class="dav">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aperiam at culpa ut molestias doloribus,
+				ipsa <span>facere, nisi voluptate adipisci</span> corrupti incidunt magnam iure! Minima facilis
+				voluptates
+				perferendis? Doloremque, tempora!</p>
+			<span> Lorem ipsum dolor sit amet.</span>
+		</div>
+	</main>
+	<footer>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quos.</p>
+	</footer>
+</body>
